@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natours app sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-korkin/natours.git"
+  },
+  "author": "a-korkin",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/a-korkin/natours/issues"
+  },
+  "homepage": "https://github.com/a-korkin/natours#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
